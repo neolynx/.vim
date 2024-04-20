@@ -1,14 +1,18 @@
-# Timo Furrer's vim configuration
+# My vim configuration
+
+Programming in python, cpp, golang, angular led to this configuration.
+
+Thanks also to Timo Furrer ;-)
 
 ## Prerequisites
 ```
-sudo apt install cmake python3-dev exuberant-ctags
+sudo apt install cmake python3-dev flake8 exuberant-ctags clang
 ```
 
 ## Installation
 
 ```bash
-git clone https://github.com/timofurrer/.vim ~/.vim
+git clone https://github.com/neolynx/.vim ~/.vim
 cd ~/.vim
 git submodule update --init --recursive
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
@@ -23,5 +27,3 @@ python3 install.py --clang-completer
 # if you like Rust completion
 python3 install.py --rust-completer
 ```
-
-**Note**: make sure to install the dependencies of the plugins you want to use.
