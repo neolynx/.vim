@@ -6,7 +6,7 @@ Thanks also to Timo Furrer ;-)
 
 ## Prerequisites
 ```
-sudo apt install cmake python3-dev flake8 exuberant-ctags clang
+sudo apt install cmake python3-dev flake8 exuberant-ctags clang python3-watchdog
 ```
 
 ## Installation
